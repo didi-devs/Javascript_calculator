@@ -35,4 +35,4 @@ const calculator = () => {
 }
 
 
-calculator()
+calculator();
