@@ -13,7 +13,7 @@ const calculator = () => {
 
     let secondNumber = parseFloat(prompt("Enter another number"));
     if (isNaN(secondNumber)) {
-        return alert("Invalid Number")
+        return alert("Invalid Input")
     };
 
     switch (operator) {
